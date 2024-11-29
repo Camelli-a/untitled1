@@ -20,6 +20,6 @@ int main(int argc, char *argv[])
         },
         Qt::QueuedConnection);
     engine.load(url);
-    std::cout<<"hello";
+    std::cout<<"hello"<<std::endl;
     return app.exec();
 }
